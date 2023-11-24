@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {font-family: "Inter-Light"; src: url('/fonts/Inter-Light.woff2');}
+@font-face {font-family: "Inter-Regular"; src: url('/fonts/Inter-Regular.woff2');}
+@font-face {font-family: "Inter-Medium"; src: url('/fonts/Inter-Medium.woff2');}
+@font-face {font-family: "Inter-SemiBold"; src: url('/fonts/Inter-SemiBold.woff2');}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #000000;
+    --type: #e3e3e3;
+    --interface: #3a3a3a;
+    --accent: #434343;
+    --testing: #bf3ed8;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* - - - - END OF BOILERPLATE - - - - */
+
+
+#container {
+    background-color: var(--interface);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#wrapper {
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 60px;
+}
